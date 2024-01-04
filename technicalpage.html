@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="Css/techpage.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>DSA Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_Should_I_Know_to_Learn_DSA">What Should I Know to Learn DSA</a></li>
+        <li><a class="nav-link" href="#Introduction_to_Programming">Introduction to Programming</a></li>
+        <li><a class="nav-link" href="#Basic_Data_Types">Basic Data Types</a></li>
+        <li><a class="nav-link" href="#Arrays">Arrays</a></li>
+        <li><a class="nav-link" href="#ArrayList">ArrayList</a></li>
+        <li><a class="nav-link" href="#Functions_and_Modular_Programming">Functions and Modular Programming</a></li>
+        <li><a class="nav-link" href="#Recursion">Recursion</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+        <p>Data structures are specialized formats for organizing, storing, and manipulating data in a computer. They provide a way to manage and organize data efficiently to perform various operations like insertion, deletion, searching, and sorting.</p>
+        <p>The primary purpose of using data structures is to enhance the performance or efficiency of algorithms.</p>
+        </article>
+      </section>
+      <section class="main-section" id="What_Should_I_Know_to_Learn_DSA">
+        <header>What Should I Know to Learn DSA</header>
+        <article>
+        <p>To begin learning data structures, start by choosing a programming language, such as Python or Java, and grasp basic programming concepts like variables, functions, and arrays.</p>
+        <p>Cultivating an understanding of functions and honing problem-solving abilities through small coding challenges on platforms like HackerRank or LeetCode will contribute significantly to your learning journey. </p>
+        </article>
+      </section>
+      <section class="main-section" id="Introduction_to_Programming">
+        <header>Introduction to Programming</header>
+        <article>
+        <p>I'm starting with Java, let's create a simple "Hello, World!" program. This classic example is often used as a first program when learning a new programming language. Here's the code:</p>
+        <code>public class HelloWorld {
+    public static void main(String[] args){
+        System.out.println("Hello, World!");
+    }
+}
+</code>
+</article>
+      </section>
+      <section class="main-section" id="Basic_Data_Types">
+        <header>Basic Data Types</header>
+          <article><p>Learn about basic data types like integers, floats, strings, and booleans.</p>
+          <p>Certainly! Let's go through each of the basic data types in Java with simple examples:</p>
+          <p>Integers (int):</p>
+          <ul>
+            <li>Integers represent whole numbers without any decimal point.</li>
+            <li>Example:</li>
+            <code>int myAge = 25;
+</code>
+          </ul>
+          <p>Floating-point Numbers (float and double):</p>
+          <ul>
+            <li>Floating-point numbers represent numbers with decimal points.
+float is a 32-bit precision floating-point number, and double is a 64-bit precision floating-point number.</li>
+            <li>Example:</li>
+            <code>float myWeight = 65.5f;
+double piValue = 3.14159265359;
+</code>
+          </ul>
+          <p>Strings (String):</p>
+          <ul>
+            <li>Strings represent sequences of characters.</li>
+            <li>Example:</li>
+            <code>String greeting = "Hello, World!";
+</code>
+          </ul>
+          <p>Booleans (boolean):</p>
+          <ul>
+            <li>Booleans represent true or false values.</li>
+            <li>Example:</li>
+            <code>boolean isJavaFun = true;
+boolean isProgrammingHard = false;
+</code>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Arrays">
+        <header>Arrays</header>
+        <article>
+        <ul>
+          <li>An array is a fixed-size, ordered collection of elements of the same data type. In Java, arrays have a fixed length, and you need to specify the size when declaring them.</li>
+          <li>Example :</li>
+          <code>public class ArrayExample {
+    public static void main(String[] args) {
+        // Declaration and Initialization of an array
+        int[] numbers = {1, 2, 3, 4, 5};
+    }
+}
+</code>
+        </ul>
+        </article>
+        </section>
+        <section class="main-section"  id="ArrayList">
+        <header>ArrayList</header>
+        <article>
+        <ul>
+          <li>ArrayList is a dynamic array implementation provided by Java's standard library (in the java.util package). Unlike arrays, ArrayLists can grow or shrink dynamically.</li>
+            <li>Example :</li>
+           <code>import java.util.ArrayList;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        // Declaration and Initialization of an ArrayList
+        ArrayList<String> fruits = new ArrayList<>();
+    }
+}
+</code>
+        </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Functions_and_Modular_Programming">
+        <header>Functions and Modular Programming</header>
+        <article><p>Functions and modular programming are fundamental concepts in programming that involve breaking down code into smaller, manageable parts.</p>
+        <ul>
+          <li>Here's a simple code snippet in Java to illustrate functions and modular programming:</li>
+          <li>Example :</li>
+          <code>public class BasicFunctionExample {
+    public static void main(String[] args) {
+        // Call the function to say hello
+        sayHello();
+    }
+
+    // Function to print a greeting message
+    static void sayHello() {
+        System.out.println("Hello, World!");
+    }
+}
+</code>
+        </ul>
+        </article>
+      </section>
+      <section class="main-section"  id="Recursion">
+        <header>Recursion</header>
+       <article> <p>Recursion is a programming concept where a function calls itself in order to solve a smaller instance of the same problem.</p>
+        <ul>
+          <li>Here's a simple example of recursion in Java using the classic factorial calculation:</li>
+          <code>public class RecursionExample {
+    public static void main(String[] args) {
+        // Calculate the factorial of 5 using recursion
+        int result = factorial(5);
+        System.out.println("Factorial of 5: " + result);
+    }
+
+    // Recursive function to calculate factorial
+    static int factorial(int n) {
+        // Base case: factorial of 0 or 1 is 1
+        if (n == 0 || n == 1) {
+            return 1;
+        } else {
+            // Recursive case: n! = n * (n-1)!
+            return n * factorial(n - 1);
+        }
+    }
+}
+</code>
+        </ul>
+        </article>
+      </section>
+      <section class="main-section"  id="Reference">
+        <header>Reference</header>
+        <article><p>These are basics of programming language,If you want to learn more Data structures and Algorithm kindly go through this link <a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/"> Data Structures And Algorithms</a></p></article>
+      </section>
+    </main>
+  </body>
+</html>
