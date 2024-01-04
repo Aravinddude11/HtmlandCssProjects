@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="Stylesheet" href="Css/form.css">
+    </head>
+  <body>
+    <h1 id="title">Survey-Form</h1>
+    <p id="description"> Please Fill up the Details Genuienly! Your information is under secure.THANK YOU!!</p>
+    <section id="survey-form">
+        <div class="container">
+      <header class="headname">Name</header>
+    <form class="ip">
+      <input type="text" id="name" placeholder="enter your name" required>
+    </form>
+      <header class="headname">Email</header>
+    <form class="ip">
+      <input type="email" id="email" placeholder="enter your email" required>
+    </form>
+      <header class="headname">Age</header>
+    <form class="ip">
+      <input type="number" id="number" min="10" max="89" placeholder="enter your age">
+    </form>
+    <header class="headname">Select your current role</header>
+      <select id="dropdown">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>employee</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+        </select>
+    </div>
+    <div id="container1">
+    <header class="headname">Would you recommend this Survey to your friend ?</header>
+      <label class="choose"><input type="radio" value="value" name="value">Definetly</label>
+      <label class="choose"><input type="radio" value="value" name="value"> May be</label>
+      <label class="choose"><input type="radio" value="value" name="value">Not Sure</label>
+      <header class="headname">Select the Electronics which you have purchased</header>
+      <label class="choose"><input type="checkbox" value="value"> Smartphone</label>
+      <label class="choose"><input type="checkbox" value="value"> EarBuds</label>
+      <label class="choose"><input type="checkbox" value="value"> Laptop</label>
+      <label class="choose"><input type="checkbox" value="value"> Television</label>
+      <label class="choose"><input type="checkbox" value="value"> Smart Watch</label>
+    </div>
+    <div id="container2">
+      <header class="headname"> Describe your opinion about this survey</header>
+      <textarea class="area" placeholder="describe your opionion ..."></textarea>
+    </div>
+    <div id="btn">
+      <button class="submit">submit</button>
+    </div>
+    </section>
+    <footer>
+        <header class="headname">THANKS FOR YOUR PATIENCE !!</header>
+    </footer>
+  </body>
+</html>
